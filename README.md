@@ -37,24 +37,20 @@ An intelligent AI agent for U.S. Harmonized Tariff Schedule (HTS) system that co
 
 ## 🚀 Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/hts-ai-agent.git
-cd hts-ai-agent
-```
 
-2. Create and activate a virtual environment:
+
+1. Create and activate a virtual environment:
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-3. Install dependencies:
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Download required data:
+3. Download required data:
    - General Notes Full Documentation from hts.usitc.gov
    - Section I CSV files from HTS
    - Place in appropriate directories (see data/README.md)
@@ -151,9 +147,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📫 Contact
 
-Your Name - your.email@example.com
+Your Name - sairamreddy1511@gmail.com.com
 
-Project Link: [https://github.com/yourusername/hts-ai-agent](https://github.com/yourusername/hts-ai-agent)
+Project Link:https://github.com/vuyyurusairamreddy/-HTSAgent-Task-sairamreddy
 
 ## 🙏 Acknowledgments
 
