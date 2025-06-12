@@ -131,6 +131,14 @@ python src/database/setup.py
 Run the test suite:
 ```bash
 pytest tests/
+python -m src.cli rag --model google/flan-t5-base --pdf data/raw/general_notes.pdf "What is the United States-Israel Free Trade Agreement?"
+python -m src.cli rag --model google/flan-t5-base --pdf data/raw/general_notes.pdf "Can a product that exceeds its tariff-rate quota still qualify for duty-free entry under GSP or any FTA? Why or why not?"
+python -m src.cli rag --model google/flan-t5-base --pdf data/raw/general_notes.pdf "How is classification determined for an imported item that will be used as a part in manufacturing but isn’t itself a finished part?"
+python -m src.cli tariff --hts 0101.30.00.00 --cost 10000 --freight 500 --insurance 100 --weight 500 --units 5
+python -m src.cli rag --model google/flan-t5-base --pdf data/raw/general_notes.pdf "What’s the HTS code for donkeys?"
+python -m src.cli rag --model google/flan-t5-base --pdf data/raw/general_notes.pdf "What are the applicable duty rates for female cattle?"
+streamlit run src/streamlit_app.py
+
 ```
 
 ## 📝 License
